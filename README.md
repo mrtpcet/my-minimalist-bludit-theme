@@ -7,4 +7,5 @@ Minimalist html/css blog without js or other shit like this.
 - Unzip and upload the folder in `bl-themes` folder
 - Go to admin panel and activate the theme
 
-![Screenshot_2021-04-18 test Journal](https://user-images.githubusercontent.com/60814449/115152270-be096480-a070-11eb-9339-8d407bff038f.png)
+![Screenshot_2021-04-18 journal](https://user-images.githubusercontent.com/60814449/115155407-24e24a00-a080-11eb-931a-fee2847246cd.png)
+
