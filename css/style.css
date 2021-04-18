@@ -1,8 +1,9 @@
 /* basics */
 :root {
-    --bg:#F3EFD6; /* background color */
-    --dim:#999; /* dimmed color */
+    --bg:#FCF0EC; /* background color */
+    --dim:#B7B3B1; /* dimmed color */
     --primary:#444; /* primary color */
+    --big:#ef3c3c; /* big color */
 }
 
 body {
@@ -34,7 +35,7 @@ pre {
 
 
 /* blog title */
-#title a, #title a:visited, #title a:hover {color: var(--primary)}
+#title a, #title a:visited, #title a:hover {color: var(--big)}
 
 /* post title */
 .title a, .title a:visited, .title a:hover {color: var(--primary)}
@@ -71,11 +72,11 @@ article p a, article p a:visited, article p a:hover { /* link inside posts */
 }
 
 
-.audio::after {
+.audio::before {
 	content: "♭";
 	position: absolute;
 	top: 80%;
-	right: -7%;
+	left: -7%;
 	color: var(--dim);
 	font-size: 1.4em;
 	line-height: 1em;
