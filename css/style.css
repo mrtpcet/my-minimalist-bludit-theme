@@ -117,3 +117,12 @@ footer {
     font-family: "Bookman Old Style", serif;
     padding:2px 0;
 }
+
+.previous, a.previous {
+    font-size:120%;
+    color:var(--title);
+}
+
+.next, a.next {
+    font-size:150%;
+}
