@@ -1,9 +1,9 @@
 /* basics */
 :root {
-    --bg:#FCF0EC; /* background color */
-    --dim:#B7B3B1; /* dimmed color */
-    --primary:#444; /* primary color */
-    --big:#ef3c3c; /* big color */
+    --bg:#2b3a41; /* background color */
+    --dim:#425863; /* dimmed color */
+    --primary:#b9c9d0; /* primary color */
+    --title:#ecbb9c; /* big color */
 }
 
 body {
@@ -35,7 +35,7 @@ pre {
 
 
 /* blog title */
-#title a, #title a:visited, #title a:hover {color: var(--big)}
+#title a, #title a:visited, #title a:hover {color: var(--title)}
 
 /* post title */
 .title a, .title a:visited, .title a:hover {color: var(--primary)}
@@ -85,8 +85,14 @@ article p a, article p a:visited, article p a:hover { /* link inside posts */
 	width: 10%;
 	margin-top: -0.5em;
 	display: inline-block;
+    transition: top 3s, color 2s;
+    transition-timing-function: ease-out;
 }
 
+.audio:hover::before {
+    top:0;
+    color:var(--title);
+}
 
 /* footer */
 footer {
