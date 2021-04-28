@@ -1,9 +1,10 @@
 /* basics */
 :root {
-    --bg:#2b3a41; /* background color */
+    --primary:#2b3a41; /* background color */
     --dim:#425863; /* dimmed color */
-    --primary:#b9c9d0; /* primary color */
-    --title:#ecbb9c; /* big color */
+    --bg:#d0d0b9; /* primary color */
+    /* --bg:#b9c9d0; */
+    --title:#425863; /* big color */
 }
 
 body {
