@@ -37,7 +37,7 @@
     }
 ?><br />
         <a href="/s-abonner">s'abonner</a><br /></nav>
-<div id="title"><h1>
+<div id="title">
     <a href="<?= HTML_PATH_ROOT ?>" title="<?php echo $site->title() ?>"><?php echo $site->title() ?></a>
 </h1></div>
 
